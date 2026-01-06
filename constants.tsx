@@ -1,12 +1,12 @@
 
 import { Banner, Article, MallCategory, Product, StandardDownload, PointTier, ProcurementScenario } from './types';
 
-export const LOGO_URL = "./files/logo.png";
+export const LOGO_URL = "logo.png";
 
 export const INITIAL_BANNERS: Banner[] = [
-  { id: '1', title: '德宝集团：打造全球净化产业供应链+生态链', imageUrl: './files/pop1.jpeg', link: '/mall', isActive: true },
-  { id: '2', title: '创新驱动未来：专业实验室净化方案专家', imageUrl: './files/pop2.jpg', link: '/static/diagnosis', isActive: true },
-  { id: '3', title: '智造洁净空间：工业建筑环境集成服务商', imageUrl: './files/pop3.jpg', link: '/scenarios', isActive: true },
+  { id: '1', title: '德宝集团：打造全球净化产业供应链+生态链', imageUrl: 'pop1.jpeg', link: '/mall', isActive: true },
+  { id: '2', title: '创新驱动未来：专业实验室净化方案专家', imageUrl: 'pop2.jpg', link: '/static/diagnosis', isActive: true },
+  { id: '3', title: '智造洁净空间：工业建筑环境集成服务商', imageUrl: 'pop3.jpg', link: '/scenarios', isActive: true },
 ];
 
 export const INITIAL_ARTICLES: Article[] = [
@@ -40,12 +40,12 @@ export const MALL_CATEGORIES: MallCategory[] = [
 ];
 
 export const INITIAL_STANDARDS: StandardDownload[] = [
-  { id: 's1', name: '工业建筑供暖通风与空气调节设计规范', code: 'GB 50019-2015', fileUrl: './files/GB50019-2015工业建筑供暖通风与空气调节设计规范.pdf', fileSize: '4.2 MB', category: '工业标准', downloads: 124, status: 'ACTIVE' },
-  { id: 's2', name: '工业设备及管道绝热工程设计规范', code: 'GB 50264-2013', fileUrl: './files/GB50264-2013工业设备及管道绝热工程设计规范.pdf', fileSize: '3.8 MB', category: '工业标准', downloads: 85, status: 'ACTIVE' },
-  { id: 's3', name: '公共建筑节能设计标准', code: 'DB11/T 687-2024', fileUrl: './files/DB11T687-2024公共建筑节能设计标准.pdf', fileSize: '5.1 MB', category: '建筑标准', downloads: 210, status: 'ACTIVE' },
-  { id: 's4', name: '建筑节能工程施工质量验收标准', code: 'DBJ50-255-2022', fileUrl: './files/DBJ50-255-2022建筑节能工程施工质量验收标准.pdf', fileSize: '6.4 MB', category: '建筑标准', downloads: 167, status: 'ACTIVE' },
-  { id: 's5', name: '良好实验室规范（GLP）管理、描述和测试项目的使用', code: 'GB/T 43547-2023', fileUrl: './files/GBT43547-2023良好实验室规范GLP管理描述和测试项目的使用.pdf', fileSize: '2.9 MB', category: '实验室规范', downloads: 342, status: 'ACTIVE' },
-  { id: 's6', name: '实验室废弃物处置指南', code: 'T/ LZZLXH 034-2020', fileUrl: './files/TLZZLXH034-2020实验室废弃物处置指南.pdf', fileSize: '1.2 MB', category: '实验室规范', downloads: 456, status: 'ACTIVE' },
+  { id: 's1', name: '工业建筑供暖通风与空气调节设计规范', code: 'GB 50019-2015', fileUrl: 'GB50019-2015工业建筑供暖通风与空气调节设计规范.pdf', fileSize: '4.2 MB', category: '工业标准', downloads: 124, status: 'ACTIVE' },
+  { id: 's2', name: '工业设备及管道绝热工程设计规范', code: 'GB 50264-2013', fileUrl: 'GB50264-2013工业设备及管道绝热工程设计规范.pdf', fileSize: '3.8 MB', category: '工业标准', downloads: 85, status: 'ACTIVE' },
+  { id: 's3', name: '公共建筑节能设计标准', code: 'DB11/T 687-2024', fileUrl: 'DB11T687-2024公共建筑节能设计标准.pdf', fileSize: '5.1 MB', category: '建筑标准', downloads: 210, status: 'ACTIVE' },
+  { id: 's4', name: '建筑节能工程施工质量验收标准', code: 'DBJ50-255-2022', fileUrl: 'DBJ50-255-2022建筑节能工程施工质量验收标准.pdf', fileSize: '6.4 MB', category: '建筑标准', downloads: 167, status: 'ACTIVE' },
+  { id: 's5', name: '良好实验室规范（GLP）管理、描述和测试项目的使用', code: 'GB/T 43547-2023', fileUrl: 'GBT43547-2023良好实验室规范GLP管理描述和测试项目的使用.pdf', fileSize: '2.9 MB', category: '实验室规范', downloads: 342, status: 'ACTIVE' },
+  { id: 's6', name: '实验室废弃物处置指南', code: 'T/ LZZLXH 034-2020', fileUrl: 'TLZZLXH034-2020实验室废弃物处置指南.pdf', fileSize: '1.2 MB', category: '实验室规范', downloads: 456, status: 'ACTIVE' },
 ];
 
 export const POINT_TIERS: PointTier[] = [
