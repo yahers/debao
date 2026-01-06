@@ -1,0 +1,37 @@
+name: 自动部署网站
+
+on:
+  push:
+    branches: ["main"] # 当你向 main 分支提交代码时触发
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 安装依赖并打包
+        run: |
+          npm install
+          npm run build
+
+      - name: 上传部署产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # 告诉 GitHub 打包好的文件夹叫 dist
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
