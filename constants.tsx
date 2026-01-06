@@ -4,9 +4,9 @@ import { Banner, Article, MallCategory, Product, StandardDownload, PointTier, Pr
 export const LOGO_URL = "./files/logo.png";
 
 export const INITIAL_BANNERS: Banner[] = [
-  { id: '1', title: '德宝集团：打造全球净化产业供应链+生态链', imageUrl: './files/pop1.jpg', link: '/mall', isActive: true },
-  { id: '2', title: '创新驱动未来：专业实验室净化方案专家', imageUrl: './files/pop2.png', link: '/static/diagnosis', isActive: true },
-  { id: '3', title: '智造洁净空间：工业建筑环境集成服务商', imageUrl: './files/pop3.png', link: '/scenarios', isActive: true },
+  { id: '1', title: '德宝集团：打造全球净化产业供应链+生态链', imageUrl: './files/pop1.jpeg', link: '/mall', isActive: true },
+  { id: '2', title: '创新驱动未来：专业实验室净化方案专家', imageUrl: './files/pop2.jpg', link: '/static/diagnosis', isActive: true },
+  { id: '3', title: '智造洁净空间：工业建筑环境集成服务商', imageUrl: './files/pop3.jpg', link: '/scenarios', isActive: true },
 ];
 
 export const INITIAL_ARTICLES: Article[] = [
